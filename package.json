@@ -1,0 +1,28 @@
+{
+  "name": "mastery-front-end-video-game-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "webpack-cli": "^3.3.10",
+    "webpack": "^4.41.2",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "webpack-dev-server --mode development --content-base docs/ --open --hot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2019-Fall-Cohort/mastery-front-end-video-game-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/2019-Fall-Cohort/mastery-front-end-video-game-api/issues"
+  },
+  "homepage": "https://github.com/2019-Fall-Cohort/mastery-front-end-video-game-api#readme"
+}
