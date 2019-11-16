@@ -1,6 +1,7 @@
 const Deact = require("../libs/deact");
 const Nav = require("./Nav");
 const Title = require("./Title");
+const GameButton = require("./GameButton");
 
 function Header() {
     return Deact.create(
@@ -11,7 +12,7 @@ function Header() {
         [
         Title("black-text-color", "Video Game"),
         
-         Nav({},"test")
+         Nav({}, [GameButton()])
         ]
     );
 }
