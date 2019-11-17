@@ -7,10 +7,10 @@ function Header() {
     return Deact.create(
         "header",
         {
-            style: `background-color: white; display: flex; justify-content: space-between; padding: 1rem;`
+            style: `background-color: #AED6F1; display: flex; justify-content: space-between; padding: 1rem;`
         },
         [
-        Title("black-text-color", "Video Game"),
+        Title("black-text-color", "Video Games"),
         
          Nav({}, [GameButton()])
         ]
