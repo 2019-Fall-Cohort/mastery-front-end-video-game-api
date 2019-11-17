@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+* 
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    font: 20px/1  sans-serif;
+    font-family: 'Indie Flower', cursive;
+  }
+
+  .game-cards{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .game-card {
+    align-content: flex-start;
+    padding-right: 35px;
+
+    
+
+  }

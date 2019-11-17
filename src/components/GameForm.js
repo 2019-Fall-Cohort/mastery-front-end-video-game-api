@@ -48,13 +48,18 @@ function GameForm() {
       ""
     ),
     Deact.create(
-      "input",
-      { class: "game-category", placeholder: "Category", type: "text" },
+      "select",
+      { class: "game-category", placeholder: "Category" },
       ""
     ),
     Deact.create(
-        "input",
-        { class: "game-publisher", placeholder: "Publisher", type: "text" },
+        "select",
+        { class: "game-publisher", placeholder: "Publisher", },
+        ""
+      ),
+      Deact.create(
+        "select",
+        { class: "game-system", placeholder: "System" },
         ""
       ),
     Button({ type: "submit" }, "Submit")
